@@ -6,7 +6,7 @@ let roomId = '';
 
 const client = new ACRemoteTelemetryClient();
 
-const socket = io('http://25.12.211.155:5000');
+const socket = io('http://25.34.155.151:5000');
 
 socket.emit('subscribe-as-upstream');
 
